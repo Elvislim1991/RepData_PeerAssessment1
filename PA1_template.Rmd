@@ -147,7 +147,7 @@ impute.df$Week <- factor(ifelse(
 
 2. Panel plot for avg number of steps taken vs 5-min interval for weekday and
 weekend
-```{r panel plot}
+```{r panelplot}
 impute.df.Week <- impute.df %>% group_by(interval, Week) %>% 
     summarise(avg.steps=mean(steps, na.rm = TRUE))
 

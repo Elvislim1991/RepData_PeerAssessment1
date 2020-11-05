@@ -321,4 +321,4 @@ xyplot(avg.steps ~ interval | Week,
        layout=c(1,2))
 ```
 
-![](PA1_template_files/figure-html/panel plot-1.png)<!-- -->
+![](PA1_template_files/figure-html/panelplot-1.png)<!-- -->
